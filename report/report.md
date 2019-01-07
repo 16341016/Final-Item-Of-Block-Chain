@@ -1,4 +1,4 @@
-﻿# 中山大学数据科学与计算机学院本科生实验报告
+﻿﻿# 中山大学数据科学与计算机学院本科生实验报告
 ## （2018年秋季学期）
 
 | 课程名称 | 区块链原理与技术 |    |    |
@@ -77,26 +77,25 @@ $ npm run dev
 
 ![](https://github.com/16341016/Final-Item-Of-Block-Chain/blob/master/report/assets/show_3.png)
 
-![](https://github.com/16341016/Final-Item-Of-Block-Chain/blob/master/report/assets/show_4.png)
 ---
 
 ## 三、测试
 
 用账户1给 疾风剑豪 投票：
 
-![1546162140206](区块链最终报告.assets/1546162140206.png)
+![](https://github.com/16341016/Final-Item-Of-Block-Chain/blob/master/report/assets/pic_1.png)
 
 弹出区块链交易申请：
 
-![1546162229089](区块链最终报告.assets/1546162229089.png)
+![](https://github.com/16341016/Final-Item-Of-Block-Chain/blob/master/report/assets/pic_2.png)
 
 点击 `CONFIRM` 确认交易：
 
-![1546164542119](区块链最终报告.assets/1546164542119.png)
+![](https://github.com/16341016/Final-Item-Of-Block-Chain/blob/master/report/assets/pic_3.png)
 
 页面刷新，疾风剑豪 排名升到第一(按钮显示已投票)：
 
-![1546164600048](区块链最终报告.assets/1546164600048.png)
+![](https://github.com/16341016/Final-Item-Of-Block-Chain/blob/master/report/assets/pic_4.png)
 
 
 
@@ -104,15 +103,15 @@ $ npm run dev
 
 切换账号看到，另一个账号未投过票，因此按钮显示可投票，而且能看到 疾风剑豪 第一的排名：
 
-![1546164803869](区块链最终报告.assets/1546164803869.png)
+![](https://github.com/16341016/Final-Item-Of-Block-Chain/blob/master/report/assets/pic_5.png)
 
 给 德玛西亚之力 投票：
 
-![1546164844400](区块链最终报告.assets/1546164844400.png)
+![](https://github.com/16341016/Final-Item-Of-Block-Chain/blob/master/report/assets/pic_6.png)
 
-![1546164861838](区块链最终报告.assets/1546164861838.png)
+![](https://github.com/16341016/Final-Item-Of-Block-Chain/blob/master/report/assets/pic_7.png)
 
-![1546164885335](区块链最终报告.assets/1546164885335.png)
+![](https://github.com/16341016/Final-Item-Of-Block-Chain/blob/master/report/assets/pic_8.png)
 
 ***
 
@@ -130,12 +129,12 @@ $ npm run dev
 
 - 用账号12给德莱文投票
 
-![1546171992977](区块链最终报告.assets/1546171992977.png)
+![](https://github.com/16341016/Final-Item-Of-Block-Chain/blob/master/report/assets/pic_9.png)
 
 投票结果如上图。
 
 当前区块信息：
 
-![1546172188674](区块链最终报告.assets/1546172188674.png)
+![](https://github.com/16341016/Final-Item-Of-Block-Chain/blob/master/report/assets/pic_10.png)
 
 合约部署总共4个区块，投票12次，共16个区块。
