@@ -1,10 +1,11 @@
 ﻿# 中山大学数据科学与计算机学院本科生实验报告
 ## （2018年秋季学期）
-| 课程名称 | 区块链原理与技术 |
+
+| 课程名称 | 区块链原理与技术 |    |    |
 | :------------: | :-------------: | :------------: | :-------------: |
 | 年级 | 2016 | 专业（方向） | 软件工程 |
 | 学号 | 16341016 | 姓名 | 屠划 |
-| 电话 | 15906773232 | Email | 372739504@qq.com |
+| 电话 | 15906773232 | Email | 372739504@qq.com
 
 ---
 
@@ -37,69 +38,104 @@ Ubuntu
 #### 运行方式
 
 * 进入`Vote_Of_LOL`
-
-
 ```
 $ cd lol-kda-vote
-
 ```
 
 * 编译合约
-
 ```
-
 $ truffle compile
-
 ```
-
 
 * 开启Ganache私有链
 
 私有链配置：
 
-
   - `Gas Limit` : 200000000
-
   - `ACCOUNT DEFAULT BALANCE` : 100
-
   - `TOTAL ACCOUNTS TO GENERATE` : 30
-
   - `HOSTNAME` : 127.0.0.1 -lo
-
   - `PORT NUMBER` : 8545
-
   - `NETWORK ID` : 5777
 
-
+![](https://github.com/16341016/Final-Item-Of-Block-Chain/blob/master/report/assets/show_1.png)
 
 * 部署合约到Ganache私有链上
-
-
+```
+$ truffle migrate
 ```
 
-$ truffle migrate
-
+![](https://github.com/16341016/Final-Item-Of-Block-Chain/blob/master/report/assets/show_2.png)
 
 * npm 运行
-
-
 ```
-
 $ npm run dev
-
 ```
 
 * 打开 MetaMask ，通过 Private Key 登陆
 
+
+![](https://github.com/16341016/Final-Item-Of-Block-Chain/blob/master/report/assets/show_3.png)
+
+![](https://github.com/16341016/Final-Item-Of-Block-Chain/blob/master/report/assets/show_4.png)
 ---
 
 ## 三、测试
 
+用账户1给 疾风剑豪 投票：
+
+![1546162140206](区块链最终报告.assets/1546162140206.png)
+
+弹出区块链交易申请：
+
+![1546162229089](区块链最终报告.assets/1546162229089.png)
+
+点击 `CONFIRM` 确认交易：
+
+![1546164542119](区块链最终报告.assets/1546164542119.png)
+
+页面刷新，疾风剑豪 排名升到第一(按钮显示已投票)：
+
+![1546164600048](区块链最终报告.assets/1546164600048.png)
 
 
----
 
-## 四、实验思考及感想
-  
+切换到账户1给 德玛西亚之力 投票：
 
----
+切换账号看到，另一个账号未投过票，因此按钮显示可投票，而且能看到 疾风剑豪 第一的排名：
+
+![1546164803869](区块链最终报告.assets/1546164803869.png)
+
+给 德玛西亚之力 投票：
+
+![1546164844400](区块链最终报告.assets/1546164844400.png)
+
+![1546164861838](区块链最终报告.assets/1546164861838.png)
+
+![1546164885335](区块链最终报告.assets/1546164885335.png)
+
+***
+
+## 4.测试
+
+接着我们将进行测试：
+
+- 用账号1, 3, 4, 5给亚索投票
+
+- 用账号2, 6, 7给盖仑投票
+
+- 用账号8, 9给伊泽瑞尔投票
+
+- 用账号10, 11给德玛西亚皇子投票
+
+- 用账号12给德莱文投票
+
+![1546171992977](区块链最终报告.assets/1546171992977.png)
+
+投票结果如上图。
+
+当前区块信息：
+
+![1546172188674](区块链最终报告.assets/1546172188674.png)
+
+合约部署总共4个区块，投票12次，共16个区块。
